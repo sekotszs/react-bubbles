@@ -44,7 +44,7 @@ class Login extends React.Component {
         <form onSubmit={this.login}>
           <input
             type="text"
-            nmae="username"
+            name="username"
             value={this.state.credentials.username}
             onChange={this.handleChange}
           />
